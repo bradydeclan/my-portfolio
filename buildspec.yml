@@ -1,0 +1,15 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo Nothing to do yet
+
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - Declan_Brady_CV_2014.doc
+    - styles/main.css
+    - images/*
+    
