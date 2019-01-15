@@ -3,7 +3,8 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo Nothing to do yet
+      - npm install
+      - npm run webpack
 
 artifacts:
   files:
@@ -12,4 +13,4 @@ artifacts:
     - Declan_Brady_CV_2014.doc
     - styles/main.css
     - images/*
-    
+    - dist/bundle.js
