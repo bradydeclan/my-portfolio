@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-watch": "jest --watch",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch"
   },
@@ -33,7 +34,11 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^22.4.3",
     "react-test-renderer": "^16.2.0",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
-  } , "jest": { "verbose": true, "testURL": "http://localhost/" }
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
 }
