@@ -17,3 +17,5 @@ artifacts:
     - styles/main.css
     - images/*
     - dist/bundle.js
+    - babel.html
+    - react.html 
